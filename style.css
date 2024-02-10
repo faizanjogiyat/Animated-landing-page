@@ -5,14 +5,14 @@
 }
 
 body{
-    background: rgb(0, 0, 0);
-    color:white;
+    background: rgb(36, 36, 36);
+    color:rgb(255, 255, 255);
 }
 
 .logoimg{
-    width: 30px;
-    height:30px;
-    margin-left: 100px;
+    width: 34%;
+    height:90%;
+    margin-left: 5%;
 }
 
 header{
@@ -21,20 +21,29 @@ header{
     display: flex;
     justify-content:space-between ;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    /* background-image: linear-gradient( #e0c009b2,rgb(219, 205, 0),#e0c009b2) */
+    background-image: linear-gradient(rgb(88, 0, 0),rgb(134, 0, 0),rgb(88, 0, 0))
 }
 
  .login{
-    
+    color: rgb(255, 255, 255);
     border-radius: 5px;
-    padding: 5px;
-    background:rgb(250, 67, 67) ;
+    /* padding: 5px; */
+    background:rgba(0, 0, 0, 0.74) ;
     
+}
+
+.login:hover{
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border-bottom: 2px solid rgb(0, 0, 0);
+
 }
 
 .logo{
     margin-right: 800px;
     font-size: 30px;
+    
 }
 
 nav{
@@ -44,7 +53,7 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-right:10px ;
     transition: .3s;
     background:transparent ;
@@ -53,7 +62,8 @@ nav a{
 }
 
 nav a:hover{
-    background:rgb(250, 67, 67) ;
+    color: white;
+    background:rgba(0, 0, 0, 0.74) ;
     padding: 5px;
     border-radius: 5px;
     
@@ -70,7 +80,7 @@ nav a:hover{
 .box1{
     width:10px ;
     height: 10px;
-    background-color :white;
+    background-color :rgb(255, 255, 255);
     margin-bottom: 10px;
     
 }
@@ -92,38 +102,41 @@ nav a:hover{
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    top: 18%;
+    top: 32%;
     left: 8%;
 }
 
 .watch{
-    width: inherit;
-    height: 360px;
+    width: 100;
     margin-left:100px ;
     
 }
     .right img{
-        width: 100%;
-    -webkit-box-direction :below 1px linear-gradient(transparent,transparent,#0004);
+        width: 82%;
+        -webkit-box-reflect: below -70px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3));
         
 }
 
 .left h1{
     font-size: 4.5rem;
-    line-height: 4.5rem;
+    line-height: 4rem;
+    /* margin-top: 10%; */
 }
 
 .left button{
-    background:rgb(250, 67, 67) ;
-    color: white;
+    font-weight: bold;
+    background:rgb(100, 0, 0) ;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
-    border: 2px solid rgb(250, 67, 67)  ;
+    border: 2px solid rgb(100, 0, 0)  ;
     border-radius: 10px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 button:hover{
-    border: 2px solid rgb(250, 67, 67)  ; 
+    color: white;
+    border: 2px solid rgb(99, 0, 0)  ; 
     background: transparent;
 }
 
@@ -134,7 +147,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 79%;
+    top: 83%;
     left:-52%;
 }
 
